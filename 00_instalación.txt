@@ -1,0 +1,11 @@
+Paso0: Ir a inicio y abrir Anaconda Prompt (consola)
+Paso1: Creamos un ambiente nuevo llamado "env_gis":
+En consola: conda create -n env_gis_competition python=3.7 anaconda
+Paso2: Activamos el ambiente
+En consola: conda activate env_gis_competition
+Paso3: Instalamos gdal
+En consola: conda install -c conda-forge gdal
+Paso4: Instalamos rasterio
+En consola: conda install -c conda-forge rasterio
+Paso5: Instalamos radiant-mlhub
+En consola: conda install -c conda-forge radiant-mlhub

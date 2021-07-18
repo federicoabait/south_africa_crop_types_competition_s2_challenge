@@ -1,0 +1,15 @@
+preprocesamiento
+	determinar cloud:
+		Cuando hay nube:
+			utilizamos fillna? media o mediana by field_id (parcela completa)
+			o ignoramos pixel y sacamos media o mediana by field_id
+		
+			Una vez que tenemos agrupado en parcelas (field_id) verificamos en la serie temporal por cada banda si es necesario aplicar interpolacion y/o suavizar  
+
+	agrupar por id
+		mean, mediana
+	creacion de feature: cálculo de indices
+imbalanced model
+select feature
+embeded model
+
