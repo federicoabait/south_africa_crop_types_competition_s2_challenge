@@ -11,5 +11,8 @@ preprocesamiento
 	creacion de feature: cálculo de indices
 imbalanced model
 select feature
-embeded model
+embeded model: probar
+		voting
+		baggin, pasting
+		bost
 
